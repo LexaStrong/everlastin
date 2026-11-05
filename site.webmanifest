@@ -1,0 +1,22 @@
+{
+  "name": "Everlastin Fadoo Company Limited",
+  "short_name": "Everlastin Fadoo",
+  "description": "The right waterproofing today, a safer tomorrow. Specialized Roof, Basement, Foundation, Concrete, Pool & Epoxy Flooring solutions in Ghana. Where quality meets ambition.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fbfaf6",
+  "theme_color": "#111312",
+  "icons": [
+    {
+      "src": "assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+

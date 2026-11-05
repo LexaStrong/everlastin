@@ -1,0 +1,40 @@
+# Robots.txt — Everlastin Fadoo Company Limited
+# SEO, AEO (Answer Engine Optimization) & GEO (Generative Engine Optimization)
+# Permitting search engines and AI answer engines full indexing access
+
+User-agent: *
+Allow: /
+
+# AI & Generative Search Crawlers (GEO / AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://everlastinfadoo.com/sitemap.xml
+

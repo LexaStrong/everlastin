@@ -2840,6 +2840,123 @@ button {
 }
 
 /* ==========================================================================
+   SECTION 7: AEO & GEO KNOWLEDGE HUB — FAQ ACCORDION
+   ========================================================================== */
+.faq-aeo-section {
+  padding: 70px 0 40px;
+  background: var(--bg-main);
+  border-top: 1px solid var(--border-light);
+}
+
+.faq-accordion-grid {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-card {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.faq-card[open] {
+  border-color: var(--text-dark);
+  box-shadow: var(--shadow-md);
+}
+
+.faq-question {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 22px 26px;
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.35;
+  user-select: none;
+}
+
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-toggle-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--bg-cream-alt);
+  color: var(--text-dark);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  transition: transform var(--transition-fast), background var(--transition-fast), color var(--transition-fast);
+}
+
+.faq-card[open] .faq-toggle-icon {
+  background: var(--accent-lime);
+  color: var(--text-dark);
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  padding: 0 26px 24px;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  border-top: 1px solid rgba(17, 19, 18, 0.05);
+  padding-top: 16px;
+}
+
+.faq-answer strong {
+  color: var(--text-dark);
+}
+
+.faq-answer a {
+  color: var(--text-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 768px) {
+  .faq-aeo-section {
+    padding: 45px 0 25px;
+  }
+  .faq-accordion-grid {
+    gap: 12px;
+  }
+  .faq-card {
+    border-radius: var(--radius-md);
+  }
+  .faq-question {
+    padding: 16px 16px;
+    font-size: 0.95rem;
+    gap: 12px;
+  }
+  .faq-toggle-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 0.78rem;
+  }
+  .faq-answer {
+    padding: 12px 16px 16px;
+    font-size: 0.88rem;
+    line-height: 1.55;
+  }
+}
+
+/* ==========================================================================
    BOTTOM CTA BANNER
    ========================================================================== */
 .banner-cta-section {
