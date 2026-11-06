@@ -1,6 +1,6 @@
-# Everlastin Fadoo Company Limited — Official Website
+# Everlasting Fadoo Company Limited — Official Website
 
-![Everlastin Fadoo Company Limited Logo](assets/logo.png)
+![Everlasting Fadoo Company Limited Logo](assets/logo.png)
 
 > **"THE RIGHT WATERPROOFING TODAY, A SAFER TOMORROW."**  
 > *Waterproofing isn’t just a treatment, it’s protection, keeping your home safe from seepage, dampness and long-term damage.*  
@@ -10,7 +10,7 @@
 
 ## 1. Project Overview
 
-This repository contains the official production website for **Everlastin Fadoo Company Limited**, a premier structural waterproofing, leak remediation, and industrial/residential epoxy flooring company headquartered at **Madina Estate (Digital Address: GK-018-2938), Accra, Ghana**.
+This repository contains the official production website for **Everlasting Fadoo Company Limited**, a premier structural waterproofing, leak remediation, and industrial/residential epoxy flooring company headquartered at **Madina Estate (Digital Address: GK-018-2938), Accra, Ghana**.
 
 The website is an architectural luxury web application inspired by the **Spaciaz** design system (warm cream `#FBFAF6`, deep charcoal `#111312`, electric lime `#D2F829`) paired with a floating frosted-glass navigation bar referenced from **Benny Homes**. It is engineered with a **mobile-first responsive architecture**, full **SEO (Search Engine Optimization)**, **AEO (Answer Engine Optimization)**, and **GEO (Generative Engine Optimization)** compliance, and zero external runtime framework dependencies.
 
@@ -20,7 +20,7 @@ The website is an architectural luxury web application inspired by the **Spaciaz
 
 | Field | Official Details |
 | :--- | :--- |
-| **Company Name** | Everlastin Fadoo Company Limited |
+| **Company Name** | Everlasting Fadoo Company Limited |
 | **Company Slogan** | *Where quality meets ambition* |
 | **Main Headline** | `THE RIGHT WATERPROOFING TODAY, A SAFER TOMORROW.` |
 | **Core Mission** | Waterproofing isn’t just a treatment, it’s protection, keeping your home safe from seepage, dampness and long-term damage. |
@@ -61,7 +61,7 @@ Every service features dedicated category filtering, technical specifications, a
 
 ### Mobile-First Enhancements (`<= 768px`)
 - **Progressive "View More Services" Disclosure**: Displays **3 services** initially on mobile viewports to keep scrolling concise. Clicking **View More Services (+2)** reveals **2 additional services** per press (`3 → 5 → 7 → 9 → 11`) until all matching services are shown, then automatically hides the button.
-- **Streamlined Mobile Page Flow**: Hides the *Standards & Recognitions* bar and *Interactive Estimate Calculator* on mobile viewports (`<= 768px`) so mobile visitors transition directly from the Services portfolio into the Contact & Site Inspection section and FAQ Knowledge Hub.
+- **Streamlined Mobile Page Flow**: Hides the *Standards & Recognitions* bar and *Interactive Estimate Calculator* on mobile viewports (`<= 768px`) so mobile visitors transition directly from the Services portfolio into the Contact & Site Inspection section.
 - **Centered Hero Experience Badge & Compact Video Pill**: Centers the `5+ Years of Field Excellence` block and scales down the `Watch Proof` video trigger pill (`max-width: 190px; margin: 0 auto`) directly beneath it.
 - **Stationary Floating Quick-Action Buttons**: Locks the floating WhatsApp and Direct Call buttons to `top: calc(100svh - 122px)` on their own GPU compositor layer (`transform: translate3d(0, 0, 0)`) with `overflow-x: clip` on `html, body` so mobile browser address bar resizing never causes the buttons to jump or shift during scrolling.
 - **Fullscreen Glass Mobile Navigation Drawer**: Animated 3-bar hamburger (`44×44px` accessible touch target) opening a fullscreen blurred overlay with direct links, WhatsApp CTA, phone/email pills, and automatic scroll-lock release on selection.
@@ -82,9 +82,8 @@ The website is engineered for maximum visibility across traditional search engin
    - Open Graph (`og:image`, `og:locale: en_GH`) and Twitter Card (`summary_large_image`) metadata configured with `assets/logo.png`.
    - XML Sitemap (`sitemap.xml`) with image schema extensions.
 
-2. **AEO — Answer Engine Optimization (`FAQPage` & `SpeakableSpecification` Schema + Interactive FAQ Accordion)**
-   - Embedded a `@graph` JSON-LD knowledge graph in `index.html` containing `HomeAndConstructionBusiness`, `LocalBusiness`, `OfferCatalog` (all 11 services), `WebSite`, `WebPage` (with `SpeakableSpecification` CSS selectors), and `FAQPage` (5 structured Q&A entities).
-   - Built an accessible `<details>` / `<summary>` **Technical Knowledge Base FAQ Section** (`#faq`) on the page with natural-language questions and direct, citation-ready engineering answers.
+2. **AEO — Answer Engine Optimization (`SpeakableSpecification` & Structured Knowledge Graph)**
+   - Embedded a `@graph` JSON-LD knowledge graph in `index.html` containing `HomeAndConstructionBusiness`, `LocalBusiness`, `OfferCatalog` (all 11 services), `WebSite`, and `WebPage` (with `SpeakableSpecification` CSS selectors).
 
 3. **GEO — Generative Engine Optimization (`llms.txt` & AI Crawler Permissions)**
    - Provided a dedicated [`llms.txt`](llms.txt) root specification file formatted in clean Markdown for LLM ingestion, summarizing entity facts, verified metrics, service specifications, and contact endpoints.
@@ -102,7 +101,7 @@ waterproofing service/
 ├── js/
 │   └── main.js         # Navbar ScrollSpy, mobile drawer, progressive services, calculator, email form
 ├── assets/
-│   └── logo.png        # Official Everlastin Fadoo emblem (used for Logo, Favicon, Apple Touch Icon & OG Image)
+│   └── logo.png        # Official Everlasting Fadoo emblem (used for Logo, Favicon, Apple Touch Icon & OG Image)
 ├── llms.txt            # Generative Engine Optimization (GEO) structured summary for AI search engines
 ├── robots.txt          # Search & AI crawler permissions + Sitemap pointer
 ├── sitemap.xml         # XML Sitemap with image metadata
@@ -128,5 +127,5 @@ Because the project uses standard HTML5, CSS3, and vanilla ES6 JavaScript with z
 
 ### Production Deployment (Vercel / Netlify / GitHub Pages / Custom Domain)
 1. Upload or push the repository root to your static host.
-2. When deploying to your final production domain, update the placeholder canonical domain (`https://everlastinfadoo.com/`) in `index.html`, `sitemap.xml`, and `robots.txt` to match your live domain.
+2. When deploying to your final production domain, update the placeholder canonical domain (`https://everlastingfadoo.com/`) in `index.html`, `sitemap.xml`, and `robots.txt` to match your live domain.
 3. Upon the first submission of the **Request a Free Site Inspection** form, open the inbox for `everlastingfadoo@gmail.com` and click the one-time **FormSubmit activation link** to enable instant AJAX email delivery.
